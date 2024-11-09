@@ -9,18 +9,24 @@ const MainPage = () =>{
         flexDirection: 'row',
         backgroundColor:'#282738',
         height:'100vh',
-        padding:'30px'
+        padding:'30px',
     }
     const mainDiv={
         height:'23px',
         width:'auto',
-        backgroundColor:'white'
+        backgroundColor:'white',
+        margin:'10px',
+        display:'flex',
+        flexDirection:'row',
+        
 
     }
     const linkStyle ={
         textDecoration:'none', 
         color:'black',
-        padding:'20px'
+        width:'100px',
+        textWrap:'wrap'
+        
     }
 
     return (
@@ -30,8 +36,38 @@ const MainPage = () =>{
                     <Link to="/reactComponent" 
                         style={linkStyle}>ReactComponent
                     </Link>
+
                 </div>
-                
+                <div style={mainDiv}>
+                    <Link to="/conditionalRendering"
+                        style={linkStyle}>
+                            Conditional Rendering
+                    </Link>
+                </div>
+                <div style={mainDiv}>
+                    <Link to="/apiDataFetching"
+                        style={linkStyle}>
+                            API Data API Data Fetching
+                    </Link>
+                </div>
+                <div style={mainDiv}>
+                    <Link to="/multiselection"
+                        style={linkStyle}>
+                            Multi Selection Component
+                    </Link>
+                </div>
+                <div style={mainDiv}>
+                    <Link to="/foodCard"
+                        style={linkStyle}>
+                            Food Card
+                    </Link>
+                </div>
+                <div style={mainDiv}>
+                    <Link to="/hideshow"
+                        style={linkStyle}>
+                            Hide Show Password
+                    </Link>
+                </div>
 
                 
             </div>
