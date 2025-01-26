@@ -8,6 +8,7 @@ import ApiDataFetch from './component/apiDataFetch';
 import MultiSelection from './component/MultiSelection';
 import FoodCard from './component/foodCard';
 import HideShow from './component/passwordhideshow';
+import StarRating from './component/StarRatingComponent';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                     <Route path="/multiselection" element={<MultiSelection/>}/>
                     <Route path="/foodCard" element={<FoodCard/>}/>
                     <Route path="/hideshow" element={<HideShow/>}/>
+                    <Route path = "/StarRating" element={<StarRating/>}/>
                     <Route path="/" element={
                             <>
                                 <MainPage/>

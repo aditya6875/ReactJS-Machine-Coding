@@ -1,4 +1,5 @@
 import { useState } from "react";
+import HomeButton from "../MainPage/HomeButton";
 
 const HideShow = () =>{
 
@@ -18,6 +19,7 @@ const HideShow = () =>{
     }
 
     return (<>
+    <HomeButton/>
     <div className="hide-show">
         <label for="fname">Name</label>
         <input type="text" name="fname" />

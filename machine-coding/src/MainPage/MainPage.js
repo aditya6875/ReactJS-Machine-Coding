@@ -78,6 +78,12 @@ const MainPage = () =>{
                             Hide Show Password
                     </Link>
                 </div>
+                <div style={mainDiv}>
+                    <Link to="/StarRating"
+                        style={linkStyle}>
+                            Star Rating Component
+                    </Link>
+                </div>
 
                 
             </div>
